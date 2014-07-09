@@ -9,6 +9,7 @@ Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
+  Spree::SocialConfig[:path_prefix] = '' # for /auth/:provider
 end
 
 Spree.user_class = "Spree::User"

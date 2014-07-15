@@ -18,6 +18,7 @@ gem 'spree_paypal_express', :github => "radar/better_spree_paypal_express", :bra
 gem 'spree_social', github: 'spree/spree_social', branch: '2-3-stable'
 gem 'spree_simple_sales', :path => 'lib/spree_simple_sales'
 gem 'spree_contact_us', path: 'lib/spree_contact_us'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   gem 'sqlite3'
